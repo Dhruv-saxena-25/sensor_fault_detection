@@ -4,7 +4,6 @@ from sklearn.metrics import f1_score, precision_score, recall_score
 import os
 import sys
 
-
 def get_classification_metric(y_true, y_pred) -> ClassificationMetricArtifact:
     try:
         model_f1_score= f1_score(y_true, y_pred)

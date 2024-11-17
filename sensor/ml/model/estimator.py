@@ -13,7 +13,6 @@ class TargetValueMapping:
         return dict(zip(mapping_response.values(), mapping_response.keys()))
     
 #Write a code to train model and check the accuracy.
-
 class SensorModel:
     
     def __init__(self, preprocessor, model):
