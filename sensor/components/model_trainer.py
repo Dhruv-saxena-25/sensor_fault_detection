@@ -53,9 +53,9 @@ class ModelTrainer:
                 f1_score = classificationmetric.f1_score
                 precision_score = classificationmetric.precision_score
                 recall_score = classificationmetric.recall_score
-                mlflow.log_metrics("f1_score", f1_score)
-                mlflow.log_metrics("precision_score", precision_score)
-                mlflow.log_metrics("recall_score", recall_score)
+                mlflow.log_metric("f1_score", f1_score)
+                mlflow.log_metric("precision_score", precision_score)
+                mlflow.log_metric("recall_score", recall_score)
                 mlflow.sklearn.log_model(model, "model")
         except Exception as e:
             raise SensorException(e, sys) 
