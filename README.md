@@ -1,1 +1,1 @@
-# sensor_fault_detection
+# Sensor Fault Detection
