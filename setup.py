@@ -22,13 +22,12 @@ def get_requirements() -> List[str]:
                     requirement_list.append(requirement)
     except FileNotFoundError:
         print("requirements.txt file not found.")
-    
+
 setup(
     name="sensor",
     version="0.0.1",
     author="Dhruv Saxena",
     author_email="dhruvsaxena.uk@gmail.com",
     packages = find_packages(),
-    install_requires=get_requirements(),
-)
+    install_requires=get_requirements(),)
 

@@ -3,9 +3,7 @@ from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
-
 project_name = "sensor"
-
 list_of_files = [
     f"{project_name}/__init__.py",
     f"{project_name}/cloud_storage/__init__.py",
