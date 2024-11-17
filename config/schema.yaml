@@ -163,7 +163,6 @@ columns:
   - ee_009: int
   - ef_000: int
   - eg_000: int
-
 numerical_columns:
   - aa_000
   - ac_000
@@ -328,7 +327,6 @@ numerical_columns:
   - ee_009
   - ef_000
   - eg_000
-
 drop_columns:
   - br_000
   - bq_000
