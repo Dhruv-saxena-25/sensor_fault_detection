@@ -11,6 +11,7 @@ from sensor.constant.training_pipeline import SCHEMA_FILE_PATH
 
 
 
+
 class DataIngestion:
     
     def __init__(self, data_ingestion_config: DataIngestionConfig) -> None:
